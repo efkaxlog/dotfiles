@@ -1,15 +1,14 @@
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.config/nvim/bundle/Vundle.vim
-call vundle#begin()
+" call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+call vundle#begin('~/.config/nvim/bundle')
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 "Plugin 'deoplete.nvim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-fugitive'
-Plugin 'pydiction'
 Plugin 'vim-hybrid-material'
 " all Vundle plugins must be added before following line
 call vundle#end()            " required
