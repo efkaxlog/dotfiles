@@ -10,5 +10,5 @@ fi
 
 # User specific aliases and functions
 
-export TERMINAL=gnome-terminal
+export TERMINAL=xfce4-terminal
 export XDG_CONFIG_HOME=~/.config
