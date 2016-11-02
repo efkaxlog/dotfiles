@@ -1,0 +1,4 @@
+pid=`pidof lemonbar`
+kill -9 $pid
+~/.config/lemonbar/scripts/bar.py | lemonbar -p -B#1c1c1c -f "DejaVu Sans Mono:size=10"
+    
